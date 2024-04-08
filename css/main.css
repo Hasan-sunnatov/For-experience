@@ -1,0 +1,70 @@
+.secound-card button{
+width: 30%;
+}
+body{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.container{
+    margin: 0px auto;
+}
+.rowspan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 320px;
+    border: 1px dashed rgb(144, 255, 53);
+}
+.card-header{
+    width: 496px;
+    height: 320px;
+    background-color: rgb(35, 6, 6);
+    padding-top: 42px;
+}
+
+.bg-dark{
+    width: 500px;
+    height: 320px; 
+}
+::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 15px;
+    letter-spacing: 1.4px;
+}
+.mt-10{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-size: 100%;
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 700;
+}
+.form-control{
+    text-indent: 15px;
+    padding: 17px 0px;
+}
+.card-body{
+    position: relative;
+}
+.header__image{
+    position: absolute;
+    top: 42px;
+}
+.form-control:focus{
+    outline: none;
+}
